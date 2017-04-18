@@ -65,6 +65,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
 
+/* For backlight breathing */
+#define BACKLIGHT_BREATHING
+
+/* For tap dancing */
+#define TAPPING_TERM 200
+
 /*
  * Force NKRO
  *
