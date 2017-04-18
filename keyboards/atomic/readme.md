@@ -24,3 +24,8 @@ To build the firmware binary hex file with a keymap just do `make` with a keymap
 $ make [default|jack|<name>]
 ```
 Keymaps follow the format **__\<name\>.c__** and are stored in the `keymaps` folder.
+
+## Notes
+ - To build: run `make atomic-<keymap folder name>` at qmk_firmware root dir
+ - To get tap dance to work, create a new Makefile and have `TAP_DANCE_ENABLE = yes' 
+   - Make sure it is in the same directory as the custom keymap.c 
