@@ -221,7 +221,7 @@ const uint16_t PROGMEM fn_actions[] = {
 };
 
 // Tap definitions
-const qk_tap_dance_action_t tap_dance_actions[] = {
+qk_tap_dance_action_t tap_dance_actions[] = {
   [CAPS_DTAP] = ACTION_TAP_DANCE_DOUBLE(KC_GRV, KC_CAPS)
 };
 
