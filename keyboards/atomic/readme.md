@@ -27,5 +27,6 @@ Keymaps follow the format **__\<name\>.c__** and are stored in the `keymaps` fol
 
 ## Notes
  - To build: run `make atomic-<keymap folder name>` at qmk_firmware root dir
+ - To flash: run `qmk flasher` on macbookpro, select new hex file, push reset on keyboard, flash
  - To get tap dance to work, create a new Makefile and have `TAP_DANCE_ENABLE = yes' 
    - Make sure it is in the same directory as the custom keymap.c 
